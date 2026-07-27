@@ -1,0 +1,9 @@
+# Build artifacts
+build_dev/
+build_release/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
