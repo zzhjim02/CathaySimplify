@@ -1,0 +1,4 @@
+opencc>=1.1.7
+pyinstaller>=5.0.0
+chardet>=5.0.0
+tkinterdnd2>=0.3.0
