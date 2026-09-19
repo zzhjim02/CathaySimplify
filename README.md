@@ -1,7 +1,7 @@
 # ⚡ CathaySimplify — TXT 繁简体批量转换工具
 
-> **CathayOCR → CathaySimplify → CathayReader**
-> 古籍 OCR 完整工作流：批量识别 → 繁简统一 → 双栏校勘
+> **CathayOCR → CathayRestore → CathaySimplify / CathayShelf → CathayReader**
+> 古籍 OCR 完整工作流：批量识别 → 文字层修正 → 繁简统一与批量著录 → 双栏校勘
 
 ---
 
@@ -11,9 +11,11 @@
 
 | 步骤 | 工具 | 功能 | 状态 |
 |:----:|:----|:----|:----:|
-| ① | [**CathayOCR**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayOCR?style=social)](https://github.com/zzhjim02/CathayOCR) | 📄 多引擎 GPU 加速</br>古籍 PDF 批处理 OCR | ✅ 已发布 v1.1.0 |
-| ② | **⭐ CathaySimplify**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathaySimplify?style=social) | 🔄 **TXT 繁简体双向转换**</br>编码智能适配 · 智能去重 | 🆕 **你在这里** |
-| ③ | [**CathayReader**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayReader?style=social)](https://github.com/zzhjim02/CathayReader) | 📖 PDF/TXT 双栏同步</br>古籍校勘阅读器 | ✅ 已发布 v1.0.0 |
+| ① | [**CathayOCR**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayOCR?style=social)](https://github.com/zzhjim02/CathayOCR) | 📄 多引擎 GPU 加速</br>古籍 PDF 批处理 OCR | ✅ 已发布 v1.2.4 |
+| ② | [**CathayRestore**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayRestore?style=social)](https://github.com/zzhjim02/CathayRestore) | 🔎 TXT 文本层写回 PDF</br>竖排 · 透明 · 可搜索 | ✅ 已发布 v1.0 |
+| ③ | **⭐ CathaySimplify**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathaySimplify?style=social) | 🔄 **TXT 繁简体双向转换**</br>编码智能适配 · 智能去重 | 🆕 **你在这里** |
+| ④ | [**CathayShelf**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayShelf?style=social)](https://github.com/zzhjim02/CathayShelf) | 🗂️ 批量著录建夹 · 后缀替换</br>已整合本工具全部功能并扩充 | ✅ 已发布 v0.4.3 |
+| ⑤ | [**CathayReader**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayReader?style=social)](https://github.com/zzhjim02/CathayReader) | 📖 PDF/TXT 双栏同步</br>古籍校勘阅读器 | ✅ 已发布 v1.0.0 |
 
 </div>
 
@@ -37,6 +39,8 @@
 ```
 
 ---
+
+> 💡 **本工具的全部功能已整合进 [CathayShelf](https://github.com/zzhjim02/CathayShelf) 的「繁简转换 / 编码规范化」选项卡**，并提供批量著录建夹、产物后缀替换等扩充；本仓库继续独立维护，轻量场景仍可直接用本工具。
 
 ## 功能特点
 
