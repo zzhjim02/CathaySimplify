@@ -12,7 +12,7 @@
 | 步骤 | 工具 | 功能 | 状态 |
 |:----:|:----|:----|:----:|
 | ① | [**CathayOCR**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayOCR?style=social)](https://github.com/zzhjim02/CathayOCR) | 📄 多引擎 GPU 加速</br>古籍 PDF 批处理 OCR | ✅ 已发布 v1.2.4 |
-| ② | [**CathayRestore**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayRestore?style=social)](https://github.com/zzhjim02/CathayRestore) | 🔎 TXT 文本层写回 PDF</br>竖排 · 透明 · 可搜索 | ✅ 已发布 v1.0 |
+| ② | [**CathayRestore**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayRestore?style=social)](https://github.com/zzhjim02/CathayRestore) | 🔎 TXT 文本层写回 PDF</br>竖排 · 透明 · 可搜索 | ✅ 已发布 v1.0.0 |
 | ③ | **⭐ CathaySimplify**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathaySimplify?style=social) | 🔄 **TXT 繁简体双向转换**</br>编码智能适配 · 智能去重 | 🆕 **你在这里** |
 | ④ | [**CathayShelf**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayShelf?style=social)](https://github.com/zzhjim02/CathayShelf) | 🗂️ 批量著录建夹 · 后缀替换</br>已整合本工具全部功能并扩充 | ✅ 已发布 v0.4.3 |
 | ⑤ | [**CathayReader**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayReader?style=social)](https://github.com/zzhjim02/CathayReader) | 📖 PDF/TXT 双栏同步</br>古籍校勘阅读器 | ✅ 已发布 v1.0.0 |
