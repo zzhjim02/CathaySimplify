@@ -1,44 +1,34 @@
 # ⚡ CathaySimplify — TXT 繁简体批量转换工具
 
-> **CathayOCR → CathayRestore → CathaySimplify / CathayShelf → CathayReader**
+> **Cathay 工具链主线：CathayIndex → CathayFinder → CathayOCR → CathayShelf → CathayReader**（本工具的功能已并入 CathayShelf）
 > 古籍 OCR 完整工作流：批量识别 → 文字层修正 → 繁简统一与批量著录 → 双栏校勘
 
 ---
 
-## 🧩 Cathay 人文研究工具链
 
-<div align="center">
+## 🔗 Cathay 人文社科工具链
 
-| 步骤 | 工具 | 功能 | 状态 |
-|:----:|:----|:----|:----:|
-| ⓪ | [**CathayRepair**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayRepair?style=social)](https://github.com/zzhjim02/CathayRepair) | 🩹 抢救损伤 PDF：逐页复制、跳过坏页 | ✅ v1.0.0 |
-| ① | [**CathayOCR**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayOCR?style=social)](https://github.com/zzhjim02/CathayOCR) | 📄 多引擎 GPU 加速</br>古籍 PDF 批处理 OCR | ✅ 已发布 v1.2.4 |
-| ② | [**CathayRestore**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayRestore?style=social)](https://github.com/zzhjim02/CathayRestore) | 🔎 TXT 文本层写回 PDF</br>竖排 · 透明 · 可搜索 | ✅ 已发布 v1.0.0 |
-| ③ | **⭐ CathaySimplify**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathaySimplify?style=social) | 🔄 **TXT 繁简体双向转换**</br>编码智能适配 · 智能去重 | 🆕 **你在这里** |
-| ④ | [**CathayShelf**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayShelf?style=social)](https://github.com/zzhjim02/CathayShelf) | 🗂️ 批量著录建夹 · 后缀替换</br>已整合本工具全部功能并扩充 | ✅ 已发布 v0.4.3 |
-| ⑤ | [**CathayReader**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayReader?style=social)](https://github.com/zzhjim02/CathayReader) | 📖 PDF/TXT 双栏同步</br>古籍校勘阅读器 | ✅ 已发布 v1.0.0 |
-| ✳ | [**CathayExtract**</br>![GitHub](https://img.shields.io/github/stars/zzhjim02/CathayExtract?style=social)](https://github.com/zzhjim02/CathayExtract) | 🔎 已有双层 PDF → 提取文字层成 TXT | ✅ v1.2.0 |
+| 顺序 | 工具 | 干什么 | 状态 |
+|:---:|---|---|---|
+| ① | [**CathayIndex**](https://github.com/zzhjim02/CathayIndex) | 把本地文件夹（含子目录、孙目录）扫成「本地文件库」 | v1.0.0 |
+| ② | [**CathayFinder**](https://github.com/zzhjim02/CathayFinder) | 综合性图书检索引擎：11 个渠道，按书名 / 作者 / 出版者 / SSID 精准查 | v1.0.0 |
+| ③ | [**CathayOCR**](https://github.com/zzhjim02/CathayOCR) | 多引擎 GPU 加速古籍 PDF 批处理 OCR | v1.2.4 |
+| ④ | [**CathayShelf**](https://github.com/zzhjim02/CathayShelf) | 自动著录建夹 / 产物后缀替换 / 繁简转换（已整合 CathaySimplify） | v0.4.5 |
+| ⑤ | [**CathayReader**](https://github.com/zzhjim02/CathayReader) | PDF/TXT 双栏同步古籍校勘阅读器 | v1.0.0 |
 
-</div>
+**备用软件（四个，按需取用）**
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                   📚 典型工作流                            │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  ① CathayOCR                                            │
-│     古籍 PDF 扫描件 → 批量 OCR → 繁体 TXT + 双层 PDF    │
-│                        │                                │
-│                        ▼                                │
-│  ② CathaySimplify  ← ⭐ 本工具                          │
-│     繁体 TXT → 批量转为简体 / 简体→繁体                  │
-│                        │                                │
-│                        ▼                                │
-│  ③ CathayReader                                         │
-│     PDF 原图 + 简体 TXT 双栏对照校勘 → 定稿              │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+| 工具 | 干什么 | 状态 |
+|---|---|---|
+| [**CathayRepair**](https://github.com/zzhjim02/CathayRepair) | 先把损坏的 PDF 修好（③ OCR 前可选） | v1.0.0 |
+| [**CathayRestore**](https://github.com/zzhjim02/CathayRestore) | 把 OCR 文本写回 PDF 文字层（③ OCR 之后可选） | v1.0.0 |
+| [**CathayExtract**](https://github.com/zzhjim02/CathayExtract) | 已有双层 PDF → 直接提取文字层成 TXT（③ 的替代入口） | v1.2.3 |
+| **CathaySimplify（你在这里）** | TXT 繁简体转换 + 编码规范化（功能已并入 ④ CathayShelf） | v1.0.0 |
+
+> 🧭 **主线一句话：** `CathayIndex` 建本地库 → `CathayFinder` 查书（找 SSID / 路径） → `CathayOCR` 识别 → `CathayShelf` 著录归架 → `CathayReader` 双栏校勘
+
+> 📌 **这是本仓库（CathaySimplify）** — 备用软件：功能**已全部并入 ④ [CathayShelf](https://github.com/zzhjim02/CathayShelf) 的「繁简转换 / 编码规范化」页**；
+> 本仓库继续独立维护，轻量场景仍可直接用。
 
 ---
 
