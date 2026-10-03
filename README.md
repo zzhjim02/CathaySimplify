@@ -1,3 +1,6 @@
+> 🏠 **本工具属于 [Cathay 系列软件](https://github.com/zzhjim02/Cathay)** —— 面向人文社会科学研究的电子书处理工具流，
+> 从找书、OCR、著录到索引、阅读、检索、摘录，覆盖文献处理全流程。**[→ 全部软件与下载入口](https://github.com/zzhjim02/Cathay)**
+
 # ⚡ CathaySimplify — TXT 繁简体批量转换工具
 
 > 🧭 **Cathay 工具链**：[CathayRepair](https://github.com/zzhjim02/CathayRepair) · [CathayPDG](https://github.com/zzhjim02/CathayPDG) · [CathayOCR](https://github.com/zzhjim02/CathayOCR) · [CathayRestore](https://github.com/zzhjim02/CathayRestore) · [CathayExtract](https://github.com/zzhjim02/CathayExtract) · [CathayShelf](https://github.com/zzhjim02/CathayShelf) · [CathayFinder](https://github.com/zzhjim02/CathayFinder) · **[CathayHub](https://github.com/zzhjim02/CathayHub)**
