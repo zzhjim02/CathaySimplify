@@ -36,6 +36,12 @@
 | [CathayReader](https://github.com/zzhjim02/CathayReader) | 已由 ⑦ CathayHub Viewer 取代 |
 | **CathaySimplify（本仓库）** | 已并入 ⑤ CathayShelf 的「繁简转换 / 编码规范化」 |
 
+**🛠️ 备用小工具（不占主线，按需取用）**
+
+| 工具 | 什么时候想到它 |
+|---|---|
+| [CathayDir](https://github.com/zzhjim02/CathayDir) | 成批 PDF 摆在那儿，想先知道各自是**横排还是竖排**（分流做 OCR、挑引擎参数、建库前摸底）—— 每 10 页抽一页批量判，结果能存 CSV，也能直接分成「横排 / 竖排 / 未知」三个柜。判定算法借自 CathayPDG |
+
 ---
 
 > 💡 **本工具的全部功能已整合进 [CathayShelf](https://github.com/zzhjim02/CathayShelf) 的「繁简转换 / 编码规范化」选项卡**，并提供批量著录建夹、产物后缀替换等扩充；本仓库继续独立维护，轻量场景仍可直接用本工具。
