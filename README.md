@@ -1,6 +1,6 @@
 # ⚡ CathaySimplify — TXT 繁简体批量转换工具
 
-> 🧭 **Cathay 工具链**：[CathayRepair](https://github.com/zzhjim02/CathayRepair) · [CathayPDG](https://github.com/zzhjim02/CathayPDG) · [CathayOCR](https://github.com/zzhjim02/CathayOCR) · [CathayRestore](https://github.com/zzhjim02/CathayRestore) · [CathayExtract](https://github.com/zzhjim02/CathayExtract) · [CathayShelf](https://github.com/zzhjim02/CathayShelf) · [CathayFinder](https://github.com/zzhjim02/CathayFinder) · **[CathayHub](https://github.com/zzhjim02/CathayHub)** · [CathayDir](https://github.com/zzhjim02/CathayDir)
+> 🧭 **Cathay 工具链**：[CathayRepair](https://github.com/zzhjim02/CathayRepair) · [CathayPDG](https://github.com/zzhjim02/CathayPDG) · [CathayOCR](https://github.com/zzhjim02/CathayOCR) · [CathayRestore](https://github.com/zzhjim02/CathayRestore) · [CathayExtract](https://github.com/zzhjim02/CathayExtract) · [CathayShelf](https://github.com/zzhjim02/CathayShelf) · [CathayFinder](https://github.com/zzhjim02/CathayFinder) · **[CathayHub](https://github.com/zzhjim02/CathayHub)**
 > ⚠️ 本工具的功能**已并入 CathayShelf**，详见下方工具链表与说明。
 > 古籍 OCR 完整工作流：批量识别 → 文字层修正 → 繁简统一与批量著录 → 双栏校勘
 
@@ -16,7 +16,7 @@
 | 步骤 | 工具 | 一句话 | 版本 |
 |:---:|---|---|---|
 | ⓪ | [CathayRepair](https://github.com/zzhjim02/CathayRepair) | PDF 打不开、一翻就崩 → 先把它抢救回来 | v1.0.0 |
-| ① | [CathayPDG](https://github.com/zzhjim02/CathayPDG) | 读秀 / 超星的 PDG 压缩包 → PDF | v0.1.8 |
+| ① | [CathayPDG](https://github.com/zzhjim02/CathayPDG) | 读秀 / 超星的 PDG 压缩包 → PDF | v0.1.9 |
 | ② | [CathayOCR](https://github.com/zzhjim02/CathayOCR) | 扫描件做 OCR → 能搜索、能复制的 PDF | v1.2.4 |
 | ③ | [CathayRestore](https://github.com/zzhjim02/CathayRestore) | 把 OCR 出来的 TXT 写回 PDF，做成双层 | v1.0.0 |
 | ④ | [CathayExtract](https://github.com/zzhjim02/CathayExtract) | 已经是双层 PDF → 直接把文字抽成 TXT | v1.2.3 |
@@ -35,12 +35,6 @@
 | [CathayViewer](https://github.com/zzhjim02/CathayViewer) | 已并入 ⑦ CathayHub Viewer |
 | [CathayReader](https://github.com/zzhjim02/CathayReader) | 已由 ⑦ CathayHub Viewer 取代 |
 | **CathaySimplify（本仓库）** | 已并入 ⑤ CathayShelf 的「繁简转换 / 编码规范化」 |
-
-**🛠️ 备用小工具（不占主线，按需取用）**
-
-| 工具 | 什么时候想到它 |
-|---|---|
-| [CathayDir](https://github.com/zzhjim02/CathayDir) | 成批 PDF 摆在那儿，想先知道各自是**横排还是竖排**（分流做 OCR、挑引擎参数、建库前摸底）—— 每 10 页抽一页批量判，结果能存 CSV，也能直接分成「横排 / 竖排 / 未知」三个柜。判定算法借自 CathayPDG |
 
 ---
 
@@ -183,7 +177,7 @@ CathaySimplify/
 
 <div align="center">
 
-**Cathay 人文社科工具链（9 个）**
+**Cathay 人文社科工具链（8 个）**
 
 | 🔗 项目 | 🎯 职责 |
 |:-------|:--------|
@@ -195,6 +189,5 @@ CathaySimplify/
 | [CathayShelf](https://github.com/zzhjim02/CathayShelf) | 著录归档 / 命名规范 / **繁简转换（含本工具全部功能）** |
 | [CathayFinder](https://github.com/zzhjim02/CathayFinder) | 11 个渠道查书 |
 | **[CathayHub](https://github.com/zzhjim02/CathayHub)** | **索引 + 全库检索 + 浏览阅读（日常入口）** |
-| [CathayDir](https://github.com/zzhjim02/CathayDir) | 批量判断 PDF 是**横排还是竖排**（OCR 前分流用） |
 
 </div>
