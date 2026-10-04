@@ -1,6 +1,6 @@
 # ⚡ CathaySimplify — TXT 繁简体批量转换工具
 
-> 🧭 **Cathay 工具链**：[CathayRepair](https://github.com/zzhjim02/CathayRepair) · [CathayPDG](https://github.com/zzhjim02/CathayPDG) · [CathayOCR](https://github.com/zzhjim02/CathayOCR) · [CathayRestore](https://github.com/zzhjim02/CathayRestore) · [CathayExtract](https://github.com/zzhjim02/CathayExtract) · [CathayShelf](https://github.com/zzhjim02/CathayShelf) · [CathayFinder](https://github.com/zzhjim02/CathayFinder) · **[CathayHub](https://github.com/zzhjim02/CathayHub)**
+> 🧭 **Cathay 工具链**：[CathayRepair](https://github.com/zzhjim02/CathayRepair) · [CathayPDG](https://github.com/zzhjim02/CathayPDG) · [CathayOCR](https://github.com/zzhjim02/CathayOCR) · [CathayRestore](https://github.com/zzhjim02/CathayRestore) · [CathayExtract](https://github.com/zzhjim02/CathayExtract) · [CathayShelf](https://github.com/zzhjim02/CathayShelf) · [CathayFinder](https://github.com/zzhjim02/CathayFinder) · **[CathayHub](https://github.com/zzhjim02/CathayHub)** · [CathayDir](https://github.com/zzhjim02/CathayDir)
 > ⚠️ 本工具的功能**已并入 CathayShelf**，详见下方工具链表与说明。
 > 古籍 OCR 完整工作流：批量识别 → 文字层修正 → 繁简统一与批量著录 → 双栏校勘
 
@@ -183,7 +183,7 @@ CathaySimplify/
 
 <div align="center">
 
-**Cathay 人文社科工具链（8 个）**
+**Cathay 人文社科工具链（9 个）**
 
 | 🔗 项目 | 🎯 职责 |
 |:-------|:--------|
@@ -195,5 +195,6 @@ CathaySimplify/
 | [CathayShelf](https://github.com/zzhjim02/CathayShelf) | 著录归档 / 命名规范 / **繁简转换（含本工具全部功能）** |
 | [CathayFinder](https://github.com/zzhjim02/CathayFinder) | 11 个渠道查书 |
 | **[CathayHub](https://github.com/zzhjim02/CathayHub)** | **索引 + 全库检索 + 浏览阅读（日常入口）** |
+| [CathayDir](https://github.com/zzhjim02/CathayDir) | 批量判断 PDF 是**横排还是竖排**（OCR 前分流用） |
 
 </div>
